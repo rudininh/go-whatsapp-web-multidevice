@@ -116,6 +116,8 @@
         <send-audio></send-audio>
         <send-poll></send-poll>
         <send-presence></send-presence>
+        
+        <send-link></send-link>
     </div>
 
     <div class="ui horizontal divider">
@@ -157,6 +159,7 @@
         <account-change-avatar></account-change-avatar>
         <account-user-info></account-user-info>
         <account-privacy></account-privacy>
+        <account-contact></account-contact>
     </div>
 
 </div>
@@ -200,6 +203,7 @@
     import SendImage from "./components/SendImage.js";
     import SendFile from "./components/SendFile.js";
     import SendVideo from "./components/SendVideo.js";
+    import SendLink from "./components/SendLink.js";
     import SendContact from "./components/SendContact.js";
     import SendLocation from "./components/SendLocation.js";
     import SendAudio from "./components/SendAudio.js";
@@ -218,6 +222,7 @@
     import AccountUserInfo from "./components/AccountUserInfo.js";
     import AccountPrivacy from "./components/AccountPrivacy.js";
     import NewsletterList from "./components/NewsletterList.js";
+    import AccountContact from "./components/AccountContact.js";
 
     const showErrorInfo = (message) => {
         $('body').toast({
@@ -252,11 +257,11 @@
     Vue.createApp({
         components: {
             AppLogin, AppLoginWithCode, AppLogout, AppReconnect,
-            SendMessage, SendImage, SendFile, SendVideo, SendContact, SendLocation, SendAudio, SendPoll, SendPresence,
+            SendMessage, SendImage, SendFile, SendVideo, SendLink, SendContact, SendLocation, SendAudio, SendPoll, SendPresence,
             MessageDelete, MessageUpdate, MessageReact, MessageRevoke,
             GroupList, GroupCreate, GroupJoinWithLink, GroupAddParticipants,
             NewsletterList,
-            AccountAvatar, AccountUserInfo, AccountPrivacy, AccountChangeAvatar
+            AccountAvatar, AccountUserInfo, AccountPrivacy, AccountChangeAvatar, AccountContact
         },
         delimiters: ['[[', ']]'],
         data() {

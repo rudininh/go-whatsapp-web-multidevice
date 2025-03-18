@@ -1,2 +1,48 @@
-Gagal mengirim ke 6281649036752! Server response: {"code":"INVALID_JID","message":"Phone 6281649036752@s.whatsapp.net is not on whatsapp"}
-Gagal mengirim ke 6281930102391! Server response: {"code":"INVALID_JID","message":"Phone 6281930102391@s.whatsapp.net is not on whatsapp"}
+[2025-03-17 14:33:40] Gagal mengirim gambar ke 6285101524201! Response: {"code":"INTERNAL_SERVER_ERROR","message":"failed to download image from URL context deadline exceeded (Client.Timeout or context cancellation while reading body)"}
+
+[2025-03-17 14:34:19] Gagal mengirim gambar ke 6281254428999! Response: {"code":"INTERNAL_SERVER_ERROR","message":"failed to download image from URL Get \"https://i.postimg.cc/4xBgN3Rr/tapera.png\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+
+[2025-03-17 14:41:22] Gagal mengirim gambar ke 6287715965694! Response: {"code":"VALIDATION_ERROR","message":"your image is not allowed. please use jpg/jpeg/png"}
+[2025-03-17 14:41:26] Gagal mengirim gambar ke 6281649036752! Response: {"code":"VALIDATION_ERROR","message":"your image is not allowed. please use jpg/jpeg/png"}
+[2025-03-17 14:41:32] Gagal mengirim gambar ke 6281930102391! Response: {"code":"VALIDATION_ERROR","message":"your image is not allowed. please use jpg/jpeg/png"}
+[2025-03-17 14:43:13] Gagal mengirim gambar ke 6287715965694! Response: {"code":"VALIDATION_ERROR","message":"your image is not allowed. please use jpg/jpeg/png"}
+[2025-03-17 14:43:21] Gagal mengirim gambar ke 6281649036752! Response: {"code":"VALIDATION_ERROR","message":"your image is not allowed. please use jpg/jpeg/png"}
+[2025-03-17 14:45:14] Gagal mengirim gambar ke 6287715965694! Response: {"code":"VALIDATION_ERROR","message":"your image is not allowed. please use jpg/jpeg/png"}
+[2025-03-17 14:46:05] Gagal mengirim gambar ke 6287715965694! Response: {"code":"INTERNAL_SERVER_ERROR","message":"failed to download image from URL context deadline exceeded (Client.Timeout or context cancellation while reading body)"}
+
+[2025-03-17 14:46:12] Gagal mengirim teks ke 6281649036752! Response: {"code":"INVALID_JID","message":"Phone 6281649036752@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 14:46:12] Gagal mengirim gambar ke 6281649036752! Response: {"code":"INVALID_JID","message":"Phone 6281649036752@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 14:46:22] Gagal mengirim teks ke 6281930102391! Response: {"code":"INVALID_JID","message":"Phone 6281930102391@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 14:46:22] Gagal mengirim gambar ke 6281930102391! Response: {"code":"INVALID_JID","message":"Phone 6281930102391@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 14:56:44] Gagal mengirim gambar ke 6287715965694! Response: {"code":"VALIDATION_ERROR","message":"ImageURL must be a valid URL"}
+
+[2025-03-17 15:15:12] Gagal mengirim teks ke 6281649036752! Response: {"code":"INVALID_JID","message":"Phone 6281649036752@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 15:15:13] Gagal mengirim gambar ke 6281649036752! Response: {"code":"INVALID_JID","message":"Phone 6281649036752@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 15:15:23] Gagal mengirim teks ke 6281930102391! Response: {"code":"INVALID_JID","message":"Phone 6281930102391@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 15:15:23] Gagal mengirim gambar ke 6281930102391! Response: {"code":"INVALID_JID","message":"Phone 6281930102391@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 15:26:59] Gagal mengirim gambar ke 6287715965694! Response: {"code":"INTERNAL_SERVER_ERROR","message":"failed to download image from URL invalid content type: text/plain; charset=utf-8"}
+
+[2025-03-17 15:27:03] Gagal mengirim teks ke 6281649036752! Response: {"code":"INVALID_JID","message":"Phone 6281649036752@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 15:27:04] Gagal mengirim gambar ke 6281649036752! Response: {"code":"INVALID_JID","message":"Phone 6281649036752@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 16:03:17] Gagal mengirim teks ke 6287715965694: Post "http://localhost:3000/send/message": dial tcp [::1]:3000: connectex: No connection could be made because the target machine actively refused it.
+
+[2025-03-17 16:03:18] Gagal mengirim gambar ke 6287715965694: Post "http://localhost:3000/send/image": dial tcp [::1]:3000: connectex: No connection could be made because the target machine actively refused it.
+
+[2025-03-17 16:04:16] Gagal mengirim teks ke 6287715965694! Response: {"code":"AUTHENTICATION_ERROR","message":"you are not logged in"}
+
+[2025-03-17 16:04:16] Gagal mengirim gambar ke 6287715965694! Response: {"code":"AUTHENTICATION_ERROR","message":"you are not logged in"}
+
+[2025-03-17 16:05:12] Gagal mengirim teks ke 6281649036752! Response: {"code":"INVALID_JID","message":"Phone 6281649036752@s.whatsapp.net is not on whatsapp"}
+
+[2025-03-17 16:05:12] Gagal mengirim gambar ke 6281649036752! Response: {"code":"INVALID_JID","message":"Phone 6281649036752@s.whatsapp.net is not on whatsapp"}
+

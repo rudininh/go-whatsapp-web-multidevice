@@ -23,6 +23,7 @@ require (
 	go.mau.fi/whatsmeow v0.0.0-20250307203951-daf102be9698
 	golang.org/x/image v0.25.0
 	google.golang.org/protobuf v1.36.5
+
 )
 
 require (

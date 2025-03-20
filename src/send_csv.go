@@ -134,7 +134,20 @@ func main() {
     defer failedFile.Close()
     failedLog := bufio.NewWriter(failedFile)
 
-    fixedMessage := `Yth. Bapak/Ibu, mohon untuk dapat memfasilitasi dengan Himbauan atau dengan Surat Edaran sekedar mengingatkan Kembali kepada teman teman seluruh ASN agar dapat melakukan Update Data Peserta, sesuai dengan Surat Dukungan Update Data yang telah kami kirimkan melalui Japri dan kami ucapkan Terimakasih`
+    fixedMessage := `BUKU SAKU TAPERA
+
+BADAN KEPEGAWAIAN DAERAH DIKLAT KOTA BANJARMASIN
+https://bkd.banjarmasinkota.go.id
+
+Informasi
+Bagi peserta Tapera yang belum melakukan pemutakhiran data agar dapat segera melakukan updating data Tapera.
+
+Buku Panduan Pemutakhiran Data PNS
+https://drive.google.com/file/d/1HfDteZlsp14ASf5JgfwQR9QOc6LCrr9v/view?usp=sharing
+
+Demikian disampaikan, terima kasih.
+
+Mohon untuk tidak menghubungi/membalas WA nomor ini.`
 
     for _, record := range records {
         if len(record) < 1 {
